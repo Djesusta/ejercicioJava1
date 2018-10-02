@@ -13,6 +13,7 @@ public class HolaMundo {
 
         Loops loops = new Loops();
         loops.iterarConFor();
+//se agrego nuevos cambios de Motocicleta
 
         Auto  auto = new Auto();
         Motocicleta motocicleta= new Motocicleta();
@@ -36,6 +37,7 @@ public class HolaMundo {
 
 
     }
+
 
 
 
