@@ -9,11 +9,19 @@ import primeraclase.excepciones.Vehiculo;
  */
 public class HolaMundo {
     public static void main(String[] args) throws Exception  {
-        System.out.println("Hola mundo Cruel!");
+        //System.out.println("Hola mundo Cruel!");
 
+
+
+        String p1="Hola Mundo";
+        String p2="Hola Mundo";
+        System.out.println(p1.equals(p2));
+
+
+/*
         Loops loops = new Loops();
         loops.iterarConFor();
-//se agrego nuevos cambios de Motocicleta
+     //se agrego nuevos cambios de Motocicleta
 
         Auto  auto = new Auto();
         Motocicleta motocicleta= new Motocicleta();
@@ -35,7 +43,7 @@ public class HolaMundo {
             //liberar recursos
         }
 
-
+      */
     }
 
 
