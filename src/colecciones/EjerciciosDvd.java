@@ -31,6 +31,12 @@ public class EjerciciosDvd {
         for (Dvd dvd: Lista){
             System.out.println(dvd);
         }
+        System.out.println("---------------------------");
+        OrdenamientoPorDirector ordenamientoPorDirector= new OrdenamientoPorDirector ();
+        Collections.sort(Lista, ordenamientoPorDirector);
+        for (Dvd dvd: Lista){
+            System.out.println(dvd);
+        }
 
 
 
@@ -39,16 +45,16 @@ public class EjerciciosDvd {
     }
 
     public static List<Dvd>  ListaPeliculas (){
-        Dvd pelicula1=new Dvd("Camino Hacia el terror","Terror","Desconocido");
-        Dvd pelicula2=new Dvd("La Monja","Suspenso","Taissa Farmiga");
-        Dvd pelicula3=new Dvd("Harry Potter","Suspenso","Daniel Jacob Radcliffe");
-        Dvd pelicula4=new Dvd("La falla de San Andres","Accion","Dwayne Johnson");
-        Dvd pelicula5=new Dvd("Kill Bill","Accion","xx5");
-        Dvd pelicula6=new Dvd("Un lugar en silencio","Terror","xxx3");
-        Dvd pelicula7=new Dvd("Soy leyenda","Accion","xxx2");
-        Dvd pelicula8=new Dvd("Mamá","Suspenso","Andy Muschietti ");
-        Dvd pelicula9=new Dvd("Rampage","Accion","Dwayne Johnson");
-        Dvd pelicula10=new Dvd("La sirena","Fantasia","Ryn");
+        Dvd pelicula1=new Dvd("Camino Hacia el terror","Terror","Desconocido","Desconocido");
+        Dvd pelicula2=new Dvd("La Monja","Suspenso","Taissa Farmiga","Geritas");
+        Dvd pelicula3=new Dvd("Harry Potter","Suspenso","Daniel Jacob Radcliffe","Dann");
+        Dvd pelicula4=new Dvd("La falla de San Andres","Accion","Dwayne Johnson","Israel");
+        Dvd pelicula5=new Dvd("Kill Bill","Accion","xx5","Sandra");
+        Dvd pelicula6=new Dvd("Un lugar en silencio","Terror","xxx3","Lili");
+        Dvd pelicula7=new Dvd("Soy leyenda","Accion","xxx2","Jose Antonio");
+        Dvd pelicula8=new Dvd("Mamá","Suspenso","Andy Muschietti","Sergio");
+        Dvd pelicula9=new Dvd("Rampage","Accion","Dwayne Johnson","Monica");
+        Dvd pelicula10=new Dvd("La sirena","Fantasia","Ryn","Diana");
 
         List<Dvd> Listas =new ArrayList<Dvd>();
         Listas.add(pelicula1);
